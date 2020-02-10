@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="HCRGUniversityService.ProductService" CodeBehind="ProductService.svc.cs" Factory="ServiceInitializer.WcfSvcServiceHostFactory" %>

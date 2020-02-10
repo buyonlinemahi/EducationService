@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7443687-4291-406D-B983-9351FFE5C954}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HCRGUniversityService</RootNamespace>
+    <AssemblyName>HCRGUniversityService</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\..\..\..\Library\External\AutoMapper\2.0.0\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Base.Data">
+      <HintPath>..\..\..\..\Library\Internal\HCRGUniversityCore\Core.Base.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Base.Data.SqlServer">
+      <HintPath>..\..\..\..\Library\Internal\HCRGUniversityCore\Core.Base.Data.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Library\External\EntityFramework\6.0\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\..\..\..\Library\External\EntityFramework\6.0\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="HCRGUniversity.Core.BL">
+      <HintPath>..\..\..\..\Library\Internal\NEPCore\HCRGUniversity.Core.BL.dll</HintPath>
+    </Reference>
+    <Reference Include="HCRGUniversity.Core.BL.Implementation">
+      <HintPath>..\..\..\..\Library\Internal\NEPCore\HCRGUniversity.Core.BL.Implementation.dll</HintPath>
+    </Reference>
+    <Reference Include="HCRGUniversity.Core.BL.Model, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Library\Internal\NEPCore\HCRGUniversity.Core.BL.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="HCRGUniversity.Core.Data">
+      <HintPath>..\..\..\..\Library\Internal\NEPCore\HCRGUniversity.Core.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="HCRGUniversity.Core.Data.Model, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Library\Internal\NEPCore\HCRGUniversity.Core.Data.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="HCRGUniversity.Core.Data.SqlServer">
+      <HintPath>..\..\..\..\Library\Internal\NEPCore\HCRGUniversity.Core.Data.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Data.Edm, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Data.Edm.5.0.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Data.OData.5.0.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Services, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Data.Services.5.0.0\lib\net40\Microsoft.Data.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Services.Client, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Data.Services.Client.5.0.0\lib\net40\Microsoft.Data.Services.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Library\External\Unity\2.1.505.2\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration">
+      <HintPath>..\..\..\..\Library\External\Unity\2.1.505.2\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Omu.ValueInjecter">
+      <HintPath>..\..\..\..\Library\External\ValueInjecter\2.1\Omu.ValueInjecter.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceInitializer">
+      <HintPath>..\..\..\..\Library\Internal\ServiceInitializer\1.0.0.0\ServiceInitializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Spatial, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\System.Spatial.5.0.0\lib\net40\System.Spatial.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutUsService.svc" />
+    <Content Include="CertificationTitleOptionService.svc" />
+    <Content Include="ClientService.svc" />
+    <Content Include="CommonService.svc" />
+    <Content Include="PlanService.svc" />
+    <Content Include="ShippingPaymentService.svc" />
+    <Content Include="CollegeService.svc" />
+    <Content Include="DiscountCouponService.svc" />
+    <Content Include="EducationModuleService.svc" />
+    <Content Include="EducationService.svc" />
+    <Content Include="ExamInternalService.svc" />
+    <Content Include="ExamQuestionService.svc" />
+    <Content Include="LogSessionService.svc" />
+    <Content Include="MyEducationService.svc" />
+    <Content Include="NewsService.svc" />
+    <Content Include="ProductService.svc" />
+    <Content Include="ShoppingEducationService.svc" />
+    <Content Include="UserService.svc" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUsService.svc.cs">
+      <DependentUpon>AboutUsService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="CertificationTitleOptionService.svc.cs">
+      <DependentUpon>CertificationTitleOptionService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ClientService.svc.cs">
+      <DependentUpon>ClientService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="CommonService.svc.cs">
+      <DependentUpon>CommonService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Contracts\ICertificationTitleOptionService.cs" />
+    <Compile Include="Contracts\IClientService.cs" />
+    <Compile Include="Contracts\ICommonService.cs" />
+    <Compile Include="Contracts\IPlanService.cs" />
+    <Compile Include="PlanService.svc.cs">
+      <DependentUpon>PlanService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ShippingPaymentService.svc.cs">
+      <DependentUpon>ShippingPaymentService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="CollegeService.svc.cs">
+      <DependentUpon>CollegeService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Contracts\IDiscountCouponService.cs" />
+    <Compile Include="Contracts\IEducationModuleService.cs" />
+    <Compile Include="Contracts\IExamQuestionService.cs" />
+    <Compile Include="Contracts\ILogSessionService.cs" />
+    <Compile Include="Contracts\INewsService.cs" />
+    <Compile Include="Contracts\IProductService.cs" />
+    <Compile Include="Contracts\IShoppingEducationService.cs" />
+    <Compile Include="Contracts\IUserService.cs" />
+    <Compile Include="Contracts\IAboutUsService.cs" />
+    <Compile Include="Contracts\ICollegeService.cs" />
+    <Compile Include="DiscountCouponService.svc.cs">
+      <DependentUpon>DiscountCouponService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="EducationModuleService.svc.cs">
+      <DependentUpon>EducationModuleService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="EducationService.svc.cs">
+      <DependentUpon>EducationService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Contracts\IEducationService.cs" />
+    <Compile Include="Contracts\IMyEducationService.cs" />
+    <Compile Include="ExamInternalService.svc.cs">
+      <DependentUpon>ExamInternalService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ExamQuestionService.svc.cs">
+      <DependentUpon>ExamQuestionService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Contracts\IExamInternalService.cs" />
+    <Compile Include="Contracts\IShippingPaymentService.cs" />
+    <Compile Include="LogSessionService.svc.cs">
+      <DependentUpon>LogSessionService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="MyEducationService.svc.cs">
+      <DependentUpon>MyEducationService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="NewsService.svc.cs">
+      <DependentUpon>NewsService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ProductService.svc.cs">
+      <DependentUpon>ProductService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShoppingEducationService.svc.cs">
+      <DependentUpon>ShoppingEducationService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="UserService.svc.cs">
+      <DependentUpon>UserService.svc</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HCRGUniversityService.CustomServiceBehaviors\HCRGUniversityService.CustomServiceBehaviors.csproj">
+      <Project>{96acc6fb-06ca-4a2e-8eb8-151909da7d58}</Project>
+      <Name>HCRGUniversityService.CustomServiceBehaviors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HCRGUniversityService.DTO\HCRGUniversityService.DTO.csproj">
+      <Project>{c919a9c6-fe66-43c6-bebd-129c29d96028}</Project>
+      <Name>HCRGUniversityService.DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2446</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:25689/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

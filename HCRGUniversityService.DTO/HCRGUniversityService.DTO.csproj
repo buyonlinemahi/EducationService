@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C919A9C6-FE66-43C6-BEBD-129C29D96028}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HCRGUniversityService.DTO</RootNamespace>
+    <AssemblyName>HCRGUniversityService.DTO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.cs" />
+    <Compile Include="Accreditation.cs" />
+    <Compile Include="Accreditor.cs" />
+    <Compile Include="Base\BaseColumn.cs" />
+    <Compile Include="Base\BaseDataColumn.cs" />
+    <Compile Include="BillingAddress.cs" />
+    <Compile Include="CarouselSetUp.cs" />
+    <Compile Include="CertificateDetail.cs" />
+    <Compile Include="Certification.cs" />
+    <Compile Include="CertificationTitleOption.cs" />
+    <Compile Include="ClientAndUserbySearchCriterias.cs" />
+    <Compile Include="ClientType.cs" />
+    <Compile Include="College.cs" />
+    <Compile Include="CollegeDepartmentSearch.cs" />
+    <Compile Include="CollegeEducation.cs" />
+    <Compile Include="OrganizationContact.cs" />
+    <Compile Include="CourseExpirySendEmail.cs" />
+    <Compile Include="CourseNameDropDownList.cs" />
+    <Compile Include="CoursePlan.cs" />
+    <Compile Include="DeliveryTerm.cs" />
+    <Compile Include="DiscountCoupon.cs" />
+    <Compile Include="DiscountCouponForCourses.cs" />
+    <Compile Include="Education.cs" />
+    <Compile Include="EducationCredential.cs" />
+    <Compile Include="EducationDetail.cs" />
+    <Compile Include="EducationDetailPage.cs" />
+    <Compile Include="EducationDetailPageWithEducation.cs" />
+    <Compile Include="EducationEvaluation.cs" />
+    <Compile Include="EducationExamQuestion.cs" />
+    <Compile Include="EducationFormat.cs" />
+    <Compile Include="EducationFormatAvailable.cs" />
+    <Compile Include="EducationFormatDetail.cs" />
+    <Compile Include="EducationModule.cs" />
+    <Compile Include="EducationModuleFile.cs" />
+    <Compile Include="EducationNewsSearch.cs" />
+    <Compile Include="EducationPreTestQuestion.cs" />
+    <Compile Include="EducationProfession.cs" />
+    <Compile Include="EducationProfessionDetail.cs" />
+    <Compile Include="EducationSearchResult.cs" />
+    <Compile Include="EducationShopping.cs" />
+    <Compile Include="EducationShoppingCart.cs" />
+    <Compile Include="EducationShoppingTemp.cs" />
+    <Compile Include="EducationTypesAvailable.cs" />
+    <Compile Include="Enterprise.cs" />
+    <Compile Include="Evaluation.cs" />
+    <Compile Include="EvaluationAnswer.cs" />
+    <Compile Include="EvaluationQuestion.cs" />
+    <Compile Include="EvaluationQuestionDetail.cs" />
+    <Compile Include="EvaluationQuestionResult.cs" />
+    <Compile Include="EvaluationResult.cs" />
+    <Compile Include="Event.cs" />
+    <Compile Include="Exam.cs" />
+    <Compile Include="ExamQuestion.cs" />
+    <Compile Include="ExamQuestionDetail.cs" />
+    <Compile Include="ExamQuestionResult.cs" />
+    <Compile Include="ExamResult.cs" />
+    <Compile Include="Faculty.cs" />
+    <Compile Include="FAQ.cs" />
+    <Compile Include="FAQCategory.cs" />
+    <Compile Include="FileType.cs" />
+    <Compile Include="HomeContent.cs" />
+    <Compile Include="Industry.cs" />
+    <Compile Include="IndustryResearch.cs" />
+    <Compile Include="LogSession.cs" />
+    <Compile Include="LogSessionDetail.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="MyEducationAccountHistory.cs" />
+    <Compile Include="MyEducationDetail.cs" />
+    <Compile Include="MyEducationModule.cs" />
+    <Compile Include="MyEducationModuleDetail.cs" />
+    <Compile Include="News.cs" />
+    <Compile Include="NewsFullDetail.cs" />
+    <Compile Include="NewsLetter.cs" />
+    <Compile Include="NewsPhoto.cs" />
+    <Compile Include="NewsSearchCarousel.cs" />
+    <Compile Include="NewsSection.cs" />
+    <Compile Include="NewsVideo.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Organization.cs" />
+    <Compile Include="PagedCourseNameDropDownList.cs" />
+    <Compile Include="Paged\PagedBillingAddress.cs" />
+    <Compile Include="Paged\PagedAboutUs.cs" />
+    <Compile Include="Paged\PagedAccreditor.cs" />
+    <Compile Include="Paged\PagedCertificationTitleOption.cs" />
+    <Compile Include="Paged\PagedClient.cs" />
+    <Compile Include="Paged\PagedCollege.cs" />
+    <Compile Include="Paged\PagedDiscountCoupon.cs" />
+    <Compile Include="Paged\PagedEducation.cs" />
+    <Compile Include="Paged\PagedEducationFormat.cs" />
+    <Compile Include="Paged\PagedEducationModule.cs" />
+    <Compile Include="Paged\PagedEducationNewsSearch.cs" />
+    <Compile Include="Paged\PagedEducationProfession.cs" />
+    <Compile Include="Paged\PagedEnterpriseDetail.cs" />
+    <Compile Include="Paged\PagedEnterprisePackageRegister.cs" />
+    <Compile Include="Paged\PagedEvaluation.cs" />
+    <Compile Include="Paged\PagedEvaluationQuestion.cs" />
+    <Compile Include="Paged\PagedEvents.cs" />
+    <Compile Include="Paged\PagedExam.cs" />
+    <Compile Include="Paged\PagedExamQuestion.cs" />
+    <Compile Include="Paged\PagedFaculty.cs" />
+    <Compile Include="Paged\PagedFAQ.cs" />
+    <Compile Include="Paged\PagedLogSessionDetail.cs" />
+    <Compile Include="Paged\PagedMyEducation.cs" />
+    <Compile Include="Paged\PagedMyEducationAccountHistory.cs" />
+    <Compile Include="Paged\PagedNews.cs" />
+    <Compile Include="Paged\PagedNewsDetail.cs" />
+    <Compile Include="Paged\PagedPlan.cs" />
+    <Compile Include="Paged\PagedPlanGrid.cs" />
+    <Compile Include="Paged\PagedPreTest.cs" />
+    <Compile Include="Paged\PagedPreTestQuestion.cs" />
+    <Compile Include="Paged\PagedProduct.cs" />
+    <Compile Include="Paged\PagedProductPurchase.cs" />
+    <Compile Include="Paged\PagedProductPurchasesRecord.cs" />
+    <Compile Include="Paged\PagedProductQuantity.cs" />
+    <Compile Include="Paged\PagedProductShippingDetail.cs" />
+    <Compile Include="Paged\PagedProfession.cs" />
+    <Compile Include="Paged\PagedShippingPayment.cs" />
+    <Compile Include="Paged\PagedSuggestCourse.cs" />
+    <Compile Include="Paged\PagedUser.cs" />
+    <Compile Include="Paged\PagedShippingAddress.cs" />
+    <Compile Include="Paged\PagedUserCardDetail.cs" />
+    <Compile Include="Paged\PagedUserMenuGroup.cs" />
+    <Compile Include="Plan.cs" />
+    <Compile Include="PlanGrid.cs" />
+    <Compile Include="PlanPackages.cs" />
+    <Compile Include="ProductPurchase.cs" />
+    <Compile Include="ProductShippingAddressDetailByID.cs" />
+    <Compile Include="ProductQuantity.cs" />
+    <Compile Include="ProductShippingDetail.cs" />
+    <Compile Include="ProductShopping.cs" />
+    <Compile Include="ProductShoppingTemp.cs" />
+    <Compile Include="ReturnPolicy.cs" />
+    <Compile Include="ShippingAddress.cs" />
+    <Compile Include="ShippingMethod.cs" />
+    <Compile Include="ShippingPayment.cs" />
+    <Compile Include="State.cs" />
+    <Compile Include="SuggestCourse.cs" />
+    <Compile Include="TermsCondition.cs" />
+    <Compile Include="PreTest.cs" />
+    <Compile Include="PreTestQuestion.cs" />
+    <Compile Include="PreTestQuestionDetail.cs" />
+    <Compile Include="PreTestQuestionResult.cs" />
+    <Compile Include="PreTestResult.cs" />
+    <Compile Include="PrivacyPolicy.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="Profession.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource.cs" />
+    <Compile Include="TrainingAndSeminar.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="UserAllAccessPass.cs" />
+    <Compile Include="UserCardDetail.cs" />
+    <Compile Include="EnterprisePackageRegister.cs" />
+    <Compile Include="UserMenuGroup.cs" />
+    <Compile Include="UserMenuGroupAndPermission.cs" />
+    <Compile Include="UserMenuPermission.cs" />
+    <Compile Include="UserPlan.cs" />
+    <Compile Include="UserSubscription.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

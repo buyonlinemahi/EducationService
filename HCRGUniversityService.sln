@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCRGUniversityService", "HCRGUniversityService\HCRGUniversityService.csproj", "{F7443687-4291-406D-B983-9351FFE5C954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCRGUniversityService.CustomServiceBehaviors", "HCRGUniversityService.CustomServiceBehaviors\HCRGUniversityService.CustomServiceBehaviors.csproj", "{96ACC6FB-06CA-4A2E-8EB8-151909DA7D58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCRGUniversityService.DTO", "HCRGUniversityService.DTO\HCRGUniversityService.DTO.csproj", "{C919A9C6-FE66-43C6-BEBD-129C29D96028}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.hcrg.com:8080/tfs/hcrg
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = HCRGUniversityService\\HCRGUniversityService.csproj
+		SccProjectName1 = HCRGUniversityService
+		SccLocalPath1 = HCRGUniversityService
+		SccProjectUniqueName2 = HCRGUniversityService.CustomServiceBehaviors\\HCRGUniversityService.CustomServiceBehaviors.csproj
+		SccProjectName2 = HCRGUniversityService.CustomServiceBehaviors
+		SccLocalPath2 = HCRGUniversityService.CustomServiceBehaviors
+		SccProjectUniqueName3 = HCRGUniversityService.DTO\\HCRGUniversityService.DTO.csproj
+		SccProjectName3 = HCRGUniversityService.DTO
+		SccLocalPath3 = HCRGUniversityService.DTO
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7443687-4291-406D-B983-9351FFE5C954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7443687-4291-406D-B983-9351FFE5C954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7443687-4291-406D-B983-9351FFE5C954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7443687-4291-406D-B983-9351FFE5C954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96ACC6FB-06CA-4A2E-8EB8-151909DA7D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96ACC6FB-06CA-4A2E-8EB8-151909DA7D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96ACC6FB-06CA-4A2E-8EB8-151909DA7D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96ACC6FB-06CA-4A2E-8EB8-151909DA7D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C919A9C6-FE66-43C6-BEBD-129C29D96028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C919A9C6-FE66-43C6-BEBD-129C29D96028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C919A9C6-FE66-43C6-BEBD-129C29D96028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C919A9C6-FE66-43C6-BEBD-129C29D96028}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

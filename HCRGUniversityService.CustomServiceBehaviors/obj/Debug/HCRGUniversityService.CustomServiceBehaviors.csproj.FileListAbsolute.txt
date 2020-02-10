@@ -1,0 +1,10 @@
+D:\Mahi_TFS\Education\Service\HCRGUniversityService\HCRGUniversityService.CustomServiceBehaviors\bin\Debug\HCRGUniversityService.CustomServiceBehaviors.dll
+D:\Mahi_TFS\Education\Service\HCRGUniversityService\HCRGUniversityService.CustomServiceBehaviors\bin\Debug\HCRGUniversityService.CustomServiceBehaviors.pdb
+D:\Mahi_TFS\Education\Service\HCRGUniversityService\HCRGUniversityService.CustomServiceBehaviors\bin\Debug\AutoMapper.dll
+D:\Mahi_TFS\Education\Service\HCRGUniversityService\HCRGUniversityService.CustomServiceBehaviors\bin\Debug\HCRGUniversity.Core.BL.Model.dll
+D:\Mahi_TFS\Education\Service\HCRGUniversityService\HCRGUniversityService.CustomServiceBehaviors\bin\Debug\HCRGUniversity.Core.Data.Model.dll
+D:\Mahi_TFS\Education\Service\HCRGUniversityService\HCRGUniversityService.CustomServiceBehaviors\bin\Debug\HCRGUniversityService.DTO.dll
+D:\Mahi_TFS\Education\Service\HCRGUniversityService\HCRGUniversityService.CustomServiceBehaviors\bin\Debug\HCRGUniversityService.DTO.pdb
+D:\Mahi_TFS\Education\Service\HCRGUniversityService\HCRGUniversityService.CustomServiceBehaviors\obj\Debug\HCRGUniversityService.CustomServiceBehaviors.csprojResolveAssemblyReference.cache
+D:\Mahi_TFS\Education\Service\HCRGUniversityService\HCRGUniversityService.CustomServiceBehaviors\obj\Debug\HCRGUniversityService.CustomServiceBehaviors.dll
+D:\Mahi_TFS\Education\Service\HCRGUniversityService\HCRGUniversityService.CustomServiceBehaviors\obj\Debug\HCRGUniversityService.CustomServiceBehaviors.pdb

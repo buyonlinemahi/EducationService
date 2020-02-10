@@ -1,0 +1,4 @@
+D:\Mahi_TFS\Education\Service\HCRGUniversityService\HCRGUniversityService.DTO\bin\Debug\HCRGUniversityService.DTO.dll
+D:\Mahi_TFS\Education\Service\HCRGUniversityService\HCRGUniversityService.DTO\bin\Debug\HCRGUniversityService.DTO.pdb
+D:\Mahi_TFS\Education\Service\HCRGUniversityService\HCRGUniversityService.DTO\obj\Debug\HCRGUniversityService.DTO.dll
+D:\Mahi_TFS\Education\Service\HCRGUniversityService\HCRGUniversityService.DTO\obj\Debug\HCRGUniversityService.DTO.pdb
